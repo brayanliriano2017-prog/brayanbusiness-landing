@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BrayanBusiness | Trading Gratis</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #050505;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: url('portada.jpg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.75);
+  background-blend-mode: darken;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/* BOTÓN */
+.btn {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background: linear-gradient(45deg, #00ffcc, #00ff88);
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 0 20px #00ffcc;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+/* SECCIÓN HISTORIA */
+.historia {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.historia img {
+  width: 400px;
+  border-radius: 15px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.historia-text {
+  max-width: 500px;
+  text-align: left;
+}
+
+.historia-text h2 {
+  color: #00ffcc;
+}
+
+.frase {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+/* TESTIMONIOS */
+.testimonios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonios img {
+  width: 220px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* BOTÓN FLOTANTE */
+.floating {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #00ffcc;
+  color: black;
+  padding: 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<script>
+const telegram = "https://t.me/lGFhTuIi7zQ0MzUx";
+
+function irTelegram() {
+  window.location.href = telegram;
+}
+</script>
+
+<!-- HERO -->
+<section class="hero" onclick="irTelegram()">
+  <h1>BRAYANBUSINESS</h1>
+  <p>N°1 EN TRADING GRATIS</p>
+
+  <h2>NO TE VOY A VENDER CURSOS</h2>
+  <p>Copia todas mis señales GRATIS</p>
+
+  <a href="#" onclick="irTelegram()" class="btn">
+    🚀 UNIRME AL TELEGRAM
+  </a>
+</section>
+
+<!-- HISTORIA -->
+<section class="historia">
+  <img src="yo.jpg" onclick="irTelegram()">
+
+  <div class="historia-text">
+    <h2>SOY BRAYAN, TENGO 28 AÑOS</h2>
+
+    <p>Hace algunos años no tenía nada… estaba perdido.</p>
+    <p>Sin dinero, sin rumbo, sin oportunidades.</p>
+    <p>Hasta que descubrí el trading.</p>
+
+    <p class="frase">
+      Hoy vivo del trading y ayudo a otros a lograrlo.
+    </p>
+
+    <p class="frase">
+      Si yo pude… tú también puedes.
+    </p>
+
+    <a href="#" onclick="irTelegram()" class="btn">
+      👉 ENTRAR GRATIS AL CANAL
+    </a>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section style="padding:60px 20px; text-align:center;">
+  <h2>RESULTADOS REALES 🔥</h2>
+
+  <div class="testimonios">
+    <img src="testimonio1.jpg" onclick="irTelegram()">
+    <img src="testimonio2.jpg" onclick="irTelegram()">
+    <img src="testimonio3.jpg" onclick="irTelegram()">
+    <img src="testimonio4.jpg" onclick="irTelegram()">
+    <img src="testimonio5.jpg" onclick="irTelegram()">
+    <img src="testimonio6.jpg" onclick="irTelegram()">
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section style="padding:60px 20px; text-align:center;">
+  <h2>ÚNETE AHORA</h2>
+  <p>Empieza hoy y cambia tu vida</p>
+
+  <a href="#" onclick="irTelegram()" class="btn">
+    🔥 ACCEDER GRATIS
+  </a>
+</section>
+
+<!-- BOTÓN FLOTANTE -->
+<a href="#" onclick="irTelegram()" class="floating">
+💬 Telegram
+</a>
+
+</body>
+</html>
